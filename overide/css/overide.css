@@ -1,0 +1,86 @@
+
+
+/*nav bar*/
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
+.navbar-inverse {
+    background-color: white;
+    /*clouds*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-toggle {
+    background-color: black;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navHome {
+    background-color: #137da7;
+    background-image: -moz-linear-gradient(top, #137da7 0, #174bb5 100%);
+    background-image: -webkit-linear-gradient(top, #137da7 0, #174bb5 100%);
+    border-radius: 6px;
+    margin-right: 3px;
+}
+
+.navGeneral {
+    background-color: #232323;
+    border-radius: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.navContacUs {
+    background-color: #137da7;
+    background-image: -moz-linear-gradient(top, #137da7 0, #174bb5 100%);
+    background-image: -webkit-linear-gradient(top, #137da7 0, #174bb5 100%);
+    border-radius: 6px;
+    margin-right: 3px;
+}
+
+.brandDistinct {
+    color: #000080;
+}
+
+.brandSystem {
+    color: #696969;
+}
+
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus > span,
+.navbar-inverse .navbar-brand:hover > span {
+    color: #bdc3c7
+}
+
+.card-img-top {
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*sections*/
+.services{
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+/* footer */
+
+footer {
+    background-color: #95a5a6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
