@@ -6,15 +6,18 @@ body {
 }
 
 .jumbotron {
-    background-image: url("img/example.jpg");
-    padding-top: 100px;
+    background-image: url("img/Auto-Repair.jpg");
+    padding-top: 200px;
     padding-bottom: 100px;
     background-position: 45% center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
 }
 
 .jumbotron > .container > h1 {
-    color: #696969;
+    color: #fff;
     text-shadow: 2px 2px #000;
+    font-size: 54px;
+    padding-bottom: 20px;
 }

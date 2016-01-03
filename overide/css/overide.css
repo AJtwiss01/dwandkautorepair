@@ -1,10 +1,22 @@
-
+/*global*/
+li{
+    font-size: 16px;
+}
 
 /*nav bar*/
+
+@media (min-width: 768px) {
+    .navbar-right {
+        float: right!important;
+        margin-right: -15px;
+        margin-top: 24px;
+    }
+}
 
 .navbar>.container .navbar-brand,
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
+    margin-top: 24px;
 }
 
 .navbar-inverse {
@@ -19,7 +31,7 @@
 }
 
 .navbar-inverse .navbar-brand {
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 500;
     color: black;
 }
@@ -45,14 +57,18 @@
 
 .navContacUs {
     background-color: #137da7;
-    background-image: -moz-linear-gradient(top, #137da7 0, #174bb5 100%);
-    background-image: -webkit-linear-gradient(top, #137da7 0, #174bb5 100%);
+    background-image: -moz-linear-gradient(top, #E0A343, #E0A343 100%);
+    background-image: -webkit-linear-gradient(top, #E0A343 0, #E0A343 100%);
     border-radius: 6px;
     margin-right: 3px;
 }
 
 .brandDistinct {
     color: #000080;
+}
+
+.brandGold {
+    color: #E0A343;
 }
 
 .brandSystem {
@@ -72,11 +88,22 @@
     margin-top: 20px;
 }
 
+
 /*sections*/
-.services{
-	padding-top: 50px;
-	padding-bottom: 150px;
+
+.services {
+    padding-top: 50px;
+    padding-bottom: 150px;
 }
+
+
+/*card*/
+
+.card > h2 {
+    font-size: 27px;
+}
+
+
 /* footer */
 
 footer {
